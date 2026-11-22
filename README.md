@@ -1,6 +1,8 @@
 # a6400 Pro Tracker
 
-A daily training tracker for learning photography and cinematic video with a Sony a6400 in Berlin: 55 days of tasks (1 December 2026 – 24 January 2027) with exact Berlin locations, phase checklists, a journal, progress stats and a free YouTube lesson for each topic.
+A daily training tracker for learning photography and cinematic video with a Sony a6400 in Berlin: an 8-week day-by-day plan (56 tasks) with exact Berlin locations, phase checklists, a journal, progress stats and a free YouTube lesson for each topic.
+
+**Start any day.** Pick your start date in the app. Weeks 2–8 run Monday to Sunday so the long shoots land on weekends; if you start mid-week, week 1 stretches to the following Sunday with a few optional catch-up days. Changing the start date keeps your ticks and journal.
 
 **Live app:** https://gedewon.github.io/a6400-pro-tracker/
 

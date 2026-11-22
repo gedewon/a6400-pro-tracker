@@ -339,23 +339,24 @@ a:focus-visible,input:focus-visible{outline:none;box-shadow:0 0 0 3px color-mix(
 <nav class="tabbar" aria-label="Sections" id="tabs-bottom"></nav>
 <div class="toaster" aria-live="polite" id="toaster"></div>
 <script>
-/* ---------- Plan data (Phase 0 + Phase 1, 1 Dec 2026 – 24 Jan 2027) ---------- */
+/* ---------- Plan data: 8 weeks, each Mon→Sun (index 0–4 weekdays, 5–6 weekend) ---------- */
 const WEEKS = [
  {n:1, phase:0, topic:"Set up the camera", goal:"Change aperture, shutter, ISO and focus without looking at the menus.", days:[
-  ["learn","1 h","Charge, format, update","Charge all batteries, format the card in the camera and update the firmware. Read the Help Guide sections on the mode dial and the Fn menu."],
+  ["learn","1 h","Unbox, charge, update","Charge all batteries, format the card in the camera and update the firmware. Fit the strap and lens and find every button and dial."],
+  ["learn","1 h","Read the basics","Watch the camera basics video, then read the Help Guide sections on the mode dial and the Fn menu."],
   ["drill","1 h","Photo settings","Apply the Phase 0 photo settings: RAW, grid, Eye AF, touch focus, peaking. Take 20 test shots around your flat."],
   ["drill","1 h","Video settings","Set 25p 100M, 1/50 s, zebras and manual audio, and save them to Memory 1. Record 10 short clips and watch them on your computer."],
   ["drill","1 h","Fn menu and blind controls","Customise the Fn menu and custom buttons. In M mode, change aperture, shutter and ISO with your eyes closed for 15 minutes."],
-  ["shoot","3 h","First walk along the Spree","Practise holding the camera steady, half-press focus and reading the histogram. Aim for 100 photos and 10 clips.","S+U Friedrichstraße → Museumsinsel","11:00–14:00"],
+  ["shoot","3 h","First walk along the Spree","Practise holding the camera steady, half-press focus and reading the histogram. Aim for 100 photos and 10 clips.","S+U Friedrichstraße → Museumsinsel","Daylight"],
   ["edit","2–3 h","Import, back up, install","Import everything, set up a folder structure and two backups. Install Lightroom (or darktable) and DaVinci Resolve. Write your first journal entry."]
  ]},
  {n:2, phase:1, topic:"Aperture", goal:"Predict how much background blur a given f-number will give.", days:[
   ["learn","1 h","Aperture and depth of field","Learn for 30 minutes, then shoot a mug at your lowest f-number, f/4, f/8 and f/16 in A mode."],
   ["drill","1 h","Distance changes blur","Keep your lowest f-number. Move the subject close to, then far from, the wall behind it."],
   ["edit","1 h","Compare the f-numbers","Compare Monday's and Tuesday's shots side by side and note which look you prefer."],
-  ["drill","1 h","Night bokeh","Background blur from Christmas lights at home or in shop windows on your street, at your lowest f-number."],
+  ["drill","1 h","Night bokeh","Background blur from lights at home, fairy lights or shop windows on your street, at your lowest f-number."],
   ["study","1 h","Study 3 portraits","Find 3 portraits you love and guess the aperture and focal length of each."],
-  ["shoot","3–4 h","Tiergarten blur test","30 photos: 15 with blurred backgrounds, 15 with everything sharp.","Tiergarten, Neuer See · S+U Zoologischer Garten, then 10 min walk","10:00–14:00"],
+  ["shoot","3–4 h","Tiergarten blur test","30 photos: 15 with blurred backgrounds, 15 with everything sharp.","Tiergarten, Neuer See · S+U Zoologischer Garten, then 10 min walk","Daylight"],
   ["edit","2–3 h","Edit, post, journal","Edit your best 10, post 3, write your journal entry."]
  ]},
  {n:3, phase:1, topic:"Shutter speed", goal:"Freeze motion, blur it on purpose, and know your slowest sharp handheld speed.", days:[
@@ -364,25 +365,25 @@ const WEEKS = [
   ["edit","1 h","Edit and note your limit","Edit Monday's and Tuesday's shots. Write down your slowest sharp handheld speed."],
   ["drill","1 h","Light trails","Car light trails on a busy street near you, camera on a wall or tripod, 2–10 s exposures."],
   ["study","1 h","Frozen vs blurred","Find 3 photos with frozen action and 3 with motion blur or panning. How was each made?"],
-  ["shoot","4 h","Tempelhof, then Alexanderplatz","Freeze cyclists at 1/1000 s and pan with skaters at 1/30 s. At dusk, blur crowds and trams at 1/15 s by the World Clock, shot from the square.","Tempelhofer Feld, Herrfurthstraße entrance · U8 Boddinstraße → Alexanderplatz","11:00–16:30 · the Feld closes at 17:00"],
+  ["shoot","4 h","Tempelhof, then Alexanderplatz","Freeze cyclists at 1/1000 s and pan with skaters at 1/30 s. At dusk, blur crowds and trams at 1/15 s by the World Clock, shot from the square.","Tempelhofer Feld, Herrfurthstraße entrance · U8 Boddinstraße → Alexanderplatz","Afternoon into dusk · the Feld's closing time changes by month"],
   ["edit","2–3 h","Edit, post, journal","Edit your best 10, post 3, write your journal entry."]
  ]},
  {n:4, phase:1, topic:"ISO and manual mode", goal:"Shoot in M mode by reading the histogram, and know how high your ISO can go.", days:[
   ["learn","1 h","ISO, histogram, M mode","Learn for 30 minutes, then shoot the same scene at ISO 100, 800, 3200 and 6400. Compare the noise at 100% zoom."],
   ["drill","1 h","M mode under 3 lights","At home in M mode, expose correctly under a lamp, a window and a TV screen."],
-  ["shoot","1–1.5 h","Christmas market at high ISO","M mode at high ISO among the market lights. Many markets close early or completely on 24 December, so go today.","Christmas market at Schloss Charlottenburg · U7 Richard-Wagner-Platz","Evening"],
-  ["rest","Rest","Christmas Eve","Rest day. Optional: family photos indoors with Eye AF, M mode, ISO 1600–3200."],
-  ["edit","1–2 h","Edit and noise reduction","Edit the market and family photos. Learn the noise-reduction slider."],
-  ["shoot","3–4 h","Museumsinsel in M mode","Lustgarten, Berliner Dom and the colonnades by the Alte Nationalgalerie. Stay into dusk for blue hour on the Bode-Museum from the Monbijoupark bank.","Museumsinsel · U5 Museumsinsel","12:00–16:30"],
+  ["shoot","1–1.5 h","Night lights at high ISO","M mode at high ISO among bright night lights: a market, lit shop windows or a busy square. In late November and December, a Christmas market is perfect.","Alexanderplatz at night · S+U Alexanderplatz (in season: the Christmas market at Schloss Charlottenburg, U7 Richard-Wagner-Platz)","Evening"],
+  ["rest","Rest","Rest or catch-up","Rest day, or catch up on anything unfinished. Optional: indoor photos of family or friends with Eye AF, M mode, ISO 1600–3200."],
+  ["edit","1 h","Edit and noise reduction","Edit Wednesday's night shots. Learn the noise-reduction slider."],
+  ["shoot","3–4 h","Museumsinsel in M mode","Lustgarten, Berliner Dom and the colonnades by the Alte Nationalgalerie. Stay into dusk for blue hour on the Bode-Museum from the Monbijoupark bank.","Museumsinsel · U5 Museumsinsel","Afternoon into blue hour"],
   ["edit","2–3 h","Edit, post, journal","Edit your best 10, post 3, write your journal entry."]
  ]},
  {n:5, phase:1, topic:"Focus", goal:"Sharp eyes in nine out of ten portraits, and confident manual focus.", days:[
   ["learn","1 h","Autofocus modes","AF-S vs AF-C, focus areas, Eye AF and Tracking. Put Focus Area on a custom button."],
   ["drill","1 h","Tracking test","Someone (or a pet) walks toward you. Shoot 50 frames with AF-C and Tracking, then count the sharp ones."],
   ["drill","1 h","Manual focus","Manual focus with peaking and the focus magnifier: 20 shots of small objects."],
-  ["bonus","Bonus","New Year's Eve fireworks","Tripod, M mode, f/8–f/11, ISO 100, 2–4 s, manual focus at infinity. Check the city's firework-ban zones beforehand and stay well away from people setting off rockets.","Viktoriapark, Kreuzberg · U6 Platz der Luftbrücke","Around midnight"],
-  ["rest","Rest","New Year's Day","Rest day. Optional: pick your 3 best fireworks frames."],
-  ["shoot","3 h","Portraits in Mauerpark","Portraits of a friend with Eye AF on every frame: still, walking and laughing.","Mauerpark · U2 Eberswalder Straße","11:00–14:00"],
+  ["bonus","1 h","Night bonus: the city from above","Tripod, M mode, f/8–f/11, ISO 100, 2–30 s, manual focus at infinity. If it's New Year's Eve, shoot the fireworks at 2–4 s, check the city's firework-ban zones first and stay clear of rockets.","Viktoriapark, Kreuzberg · U6 Platz der Luftbrücke","After dark"],
+  ["rest","Rest","Rest or catch-up","Rest day, or catch up on anything unfinished. Optional: pick your 3 best night frames."],
+  ["shoot","3 h","Portraits in Mauerpark","Portraits of a friend with Eye AF on every frame: still, walking and laughing.","Mauerpark · U2 Eberswalder Straße","Daylight"],
   ["shoot","2–3 h","Dogs, then edit","Morning: animal Eye AF, asking owners first. Afternoon: edit, post 3, write your journal entry.","Grunewald off-leash dog area · S Grunewald","Morning"]
  ]},
  {n:6, phase:1, topic:"Composition I", goal:"Use the rule of thirds, leading lines and framing on purpose.", days:[
@@ -391,16 +392,16 @@ const WEEKS = [
   ["drill","1 h","Night lines in your Kiez","Leading lines from street lights, tram tracks and pavements. 40 minutes shooting, 20 minutes review."],
   ["edit","1 h","Re-crop 20 photos","Re-crop 20 older photos to improve their composition. Compare before and after."],
   ["study","1 h","Draw over 3 photos","Draw thirds and lines over 3 photos you admire, on paper or a screenshot."],
-  ["shoot","4 h","Oberbaumbrücke to Hackesche Höfe","Leading lines in the bridge arches, thirds along East Side Gallery with the Spree, frames within frames in Hackesche Höfe. 10 photos per technique.","U1 Schlesisches Tor → East Side Gallery → S Hackescher Markt","11:00–15:30"],
+  ["shoot","4 h","Oberbaumbrücke to Hackesche Höfe","Leading lines in the bridge arches, thirds along East Side Gallery with the Spree, frames within frames in Hackesche Höfe. 10 photos per technique.","U1 Schlesisches Tor → East Side Gallery → S Hackescher Markt","Daylight"],
   ["edit","2–3 h","Edit, post, journal","Edit your best 10, post 3, write your journal entry."]
  ]},
  {n:7, phase:1, topic:"Composition II", goal:"Make one ordinary subject look different 20 ways.", days:[
   ["learn","1 h","Foreground, symmetry, space","Learn for 30 minutes, then photograph one object from 5 heights."],
   ["drill","1 h","One object, 10 ways","Very low, very high, very close, far, through something, reflected."],
-  ["shoot","1 h","Symmetry at Frankfurter Tor","The lit twin towers on Karl-Marx-Allee at night.","Frankfurter Tor · U5 Frankfurter Tor","Evening"],
+  ["shoot","1 h","Symmetry at Frankfurter Tor","The lit twin towers on Karl-Marx-Allee at night.","Frankfurter Tor · U5 Frankfurter Tor","After dark"],
   ["edit","1 h","Straighten verticals","Edit Tuesday's and Wednesday's shots; straighten the verticals in the symmetry shots."],
   ["study","1 h","Negative space","Study 3 photos that use negative space, then plan 5 shots for Saturday."],
-  ["shoot","4 h","The Fernsehturm 20 ways","Low angles, frames, reflections, foreground objects and lots of sky. Finish at sunset.","Alexanderplatz → Marx-Engels-Forum → Nikolaiviertel riverbank → Monbijoupark","11:00–16:30"],
+  ["shoot","4 h","The Fernsehturm 20 ways","Low angles, frames, reflections, foreground objects and lots of sky. Finish at sunset.","Alexanderplatz → Marx-Engels-Forum → Nikolaiviertel riverbank → Monbijoupark","Afternoon until sunset"],
   ["edit","2–3 h","Edit the 20 as one set","Edit all 20 to the same look, post them as one set, write your journal entry."]
  ]},
  {n:8, phase:1, topic:"Review and first set", goal:"Finish Phase 1 with a 15-photo set and fix your weakest skill.", days:[
@@ -413,6 +414,8 @@ const WEEKS = [
   ["edit","2–3 h","Your first 15-photo set","Choose your final 15, post them as a set, and tick off the Phase 1 checklist."]
  ]}
 ];
+const EXTRA_WEEKEND=["shoot","Optional","Free weekend shoot","Week 1's long walk comes next weekend. Today, take the camera anywhere, shoot in Auto or with what you've learned so far, and just enjoy it.","Anywhere near you","Daylight"];
+const EXTRA_WEEKDAY=["rest","Optional","Catch-up or rest","Catch up on anything unfinished this week, or rest. Week 1 stretches to the next Sunday so your long shoots land on weekends."];
 
 const TYPE_LABEL={learn:"Learn",drill:"Drill",shoot:"Shoot",edit:"Edit",study:"Study",rest:"Rest",bonus:"Bonus"};
 const LISTS=[
@@ -437,26 +440,26 @@ const PHASES=[
 /* ---------- Video lessons (free, YouTube) ---------- */
 const V=(t,id)=>({t,u:"https://www.youtube.com/watch?v="+id});
 const DAY_VIDEOS={
- "2026-12-01":V("Sony Camera Basics for Beginners (a6000–a6700)","0Sw9igHtQw8"),
- "2026-12-02":V("How to Set Up Your Sony Camera for Photography","37u4Y1KQkmQ"),
- "2026-12-03":V("Best Sony A6400 Video Settings, Beginner Friendly","y_uRYG_tZxs"),
- "2026-12-04":V("Setting Up the Sony A6400 for Photography: Beginners Guide","ZtStLFdVa0I"),
- "2026-12-07":V("Aperture & Depth of Field Made Easy","EdxKl5np9KE"),
- "2026-12-14":V("Stop the Blur! Shutter Speed Explained","ez445sKgs7g"),
- "2026-12-17":V("Light Trail Photography: Super Simple Steps","EJqaBnuer_w"),
- "2026-12-18":V("How to Blur Movement in Photos (Mike Browne)","cXhWqxpgP2E"),
- "2026-12-21":V("How to Set Exposure in Manual Mode","P4pavu9ZO7M"),
- "2026-12-22":V("Sony A6400 Tutorial: Aperture, Shutter Speed, Manual Mode","lt2Kp-2mCHA"),
- "2026-12-28":V("How to Set Up Autofocus on the Sony a6400 (DPReview)","pn0fh4XHpLY"),
- "2026-12-30":V("Sony A6400: Using Manual Focus, Beginners Guide","TZBeQDPTBF0"),
- "2026-12-31":V("7 Steps for Easy Fireworks Photography","BMS-8n1uUNU"),
- "2027-01-04":V("Top 10 Composition Tips","5V4uuNdmRHc"),
- "2027-01-11":V("8 Best Photography Composition Techniques","2MH1yb3fC4s"),
- "2027-01-15":V("This Is How I Compose Photos Using Negative Space","X_UmONSmuc4")
+ "1-1":V("Sony Camera Basics for Beginners (a6000–a6700)","0Sw9igHtQw8"),
+ "1-2":V("How to Set Up Your Sony Camera for Photography","37u4Y1KQkmQ"),
+ "1-3":V("Best Sony A6400 Video Settings, Beginner Friendly","y_uRYG_tZxs"),
+ "1-4":V("Setting Up the Sony A6400 for Photography: Beginners Guide","ZtStLFdVa0I"),
+ "2-0":V("Aperture & Depth of Field Made Easy","EdxKl5np9KE"),
+ "3-0":V("Stop the Blur! Shutter Speed Explained","ez445sKgs7g"),
+ "3-3":V("Light Trail Photography: Super Simple Steps","EJqaBnuer_w"),
+ "3-4":V("How to Blur Movement in Photos (Mike Browne)","cXhWqxpgP2E"),
+ "4-0":V("How to Set Exposure in Manual Mode","P4pavu9ZO7M"),
+ "4-1":V("Sony A6400 Tutorial: Aperture, Shutter Speed, Manual Mode","lt2Kp-2mCHA"),
+ "5-0":V("How to Set Up Autofocus on the Sony a6400 (DPReview)","pn0fh4XHpLY"),
+ "5-2":V("Sony A6400: Using Manual Focus, Beginners Guide","TZBeQDPTBF0"),
+ "5-3":V("7 Steps for Easy Fireworks Photography (night & fireworks)","BMS-8n1uUNU"),
+ "6-0":V("Top 10 Composition Tips","5V4uuNdmRHc"),
+ "7-0":V("8 Best Photography Composition Techniques","2MH1yb3fC4s"),
+ "7-4":V("This Is How I Compose Photos Using Negative Space","X_UmONSmuc4")
 };
 const PHASE_VIDEOS={
- p0:[DAY_VIDEOS["2026-12-01"],DAY_VIDEOS["2026-12-02"],DAY_VIDEOS["2026-12-03"]],
- p1:[DAY_VIDEOS["2026-12-07"],DAY_VIDEOS["2026-12-14"],DAY_VIDEOS["2026-12-21"],DAY_VIDEOS["2026-12-28"],DAY_VIDEOS["2027-01-04"]],
+ p0:[DAY_VIDEOS["1-1"],DAY_VIDEOS["1-2"],DAY_VIDEOS["1-3"]],
+ p1:[DAY_VIDEOS["2-0"],DAY_VIDEOS["3-0"],DAY_VIDEOS["4-0"],DAY_VIDEOS["5-0"],DAY_VIDEOS["6-0"]],
  p2:[V("Golden Hour and Blue Hour Explained","y0pGQKsAC1U"),V("5 Window Light Portrait Positions","NM2BIcg8GLE"),V("Edit Your First Photo in Lightroom Classic","2-wEPZIdueA"),V("Light Trail Photography: Super Simple Steps","EJqaBnuer_w")],
  p3:[V("Cinematic Video Basics: Shutter Speed and ND Filters","bdPzDGL6U-A"),V("Ultimate Guide to Camera Shots (StudioBinder)","AyML8xuKfoc"),V("Ultimate Guide to Camera Movement (StudioBinder)","IiyBo-qLDeM"),V("Basics of Audio for Video","gULyPx-F_Xs"),V("DaVinci Resolve 20 for Beginners: Crash Course","fDe7G8Tz6cA"),V("6 Ways to Edit Any Scene: J-cuts, L-cuts and more (StudioBinder)","FVR8zz8ci2k")],
  p4:[V("How to Make a Short Documentary in Two Days","pxUE_4KkaEs"),V("The Complete Guide for Starting Street Photography","e2TwYaiNYDY"),V("The 180 Degree Rule: Filming Dialogue","9J0efWpErQQ"),V("The Only Color Grading Guide You Need (DaVinci Resolve)","QK6pAiaiXO4")],
@@ -487,10 +490,37 @@ const TABS=[["today","Today","sun"],["plan","Plan","list"],["progress","Progress
 document.getElementById("tabs-top").innerHTML=TABS.map(t=>`<a href="#${t[0]}" data-tab="${t[0]}">${t[1]}</a>`).join("");
 document.getElementById("tabs-bottom").innerHTML=TABS.map(t=>`<a href="#${t[0]}" data-tab="${t[0]}">${ic(t[2])}<span>${t[1]}</span></a>`).join("");
 
-/* ---------- Dates ---------- */
-const DAY=864e5, START=Date.UTC(2026,11,1);
-const DAYS=[];(function(){let c=0;WEEKS.forEach(w=>w.days.forEach(d=>{const dt=new Date(START+c*DAY);DAYS.push({key:dt.toISOString().slice(0,10),idx:c,week:w.n,dow:(dt.getUTCDay()+6)%7,type:d[0],hours:d[1],title:d[2],detail:d[3],place:d[4]||"",time:d[5]||""});c++;}));})();
-const BYKEY=Object.fromEntries(DAYS.map(d=>[d.key,d]));
+/* ---------- Dates & schedule (start any day) ---------- */
+const DAY=864e5;
+const addDays=(k,n)=>new Date(Date.parse(k+"T12:00:00Z")+n*DAY).toISOString().slice(0,10);
+const dowOf=k=>(new Date(k+"T12:00:00Z").getUTCDay()+6)%7; /* Mon=0 … Sun=6 */
+function mk(id,date,w,i,d,extra){return {key:id,date,week:w,slot:i,dow:dowOf(date),type:d[0],hours:d[1],title:d[2],detail:d[3],place:d[4]||"",time:d[5]||"",extra:!!extra};}
+/* Weeks 2–8 run Monday→Sunday so long shoots land on weekends. Week 1 starts on your start day; if that isn't a Monday it
+   stretches to the Sunday of the following week: weekday tasks take the first weekday slots, the weekend walk and import take
+   the last weekend, and spare days become optional catch-up days or free shoots. */
+function buildSchedule(start){
+  const out=[],s0=dowOf(start),len=s0===0?7:14-s0;
+  const slots=[];for(let i=0;i<len;i++)slots.push(addDays(start,i));
+  const wdSlots=slots.filter(k=>dowOf(k)<5).slice(0,5),weSlots=slots.filter(k=>dowOf(k)>=5).slice(-2);
+  const w1=WEEKS[0].days;let x=0;
+  slots.forEach(k=>{
+    const a=wdSlots.indexOf(k),b=weSlots.indexOf(k);
+    if(a>=0)out.push(mk("1-"+a,k,1,a,w1[a]));
+    else if(b>=0)out.push(mk("1-"+(5+b),k,1,5+b,w1[5+b]));
+    else out.push(mk("1-x"+(x++),k,1,-1,dowOf(k)>=5?EXTRA_WEEKEND:EXTRA_WEEKDAY,true));
+  });
+  let mon=addDays(start,len);
+  for(let wi=1;wi<WEEKS.length;wi++){const w=WEEKS[wi];w.days.forEach((d,i)=>out.push(mk(w.n+"-"+i,addDays(mon,i),w.n,i,d)));mon=addDays(mon,7);}
+  out.forEach((d,i)=>d.idx=i);
+  return out;
+}
+let DAYS=[],BYKEY={},BYDATE={},CORE=[];
+function schedule(){
+  DAYS=buildSchedule(S.start||todayKey());
+  BYKEY=Object.fromEntries(DAYS.map(d=>[d.key,d]));BYDATE=Object.fromEntries(DAYS.map(d=>[d.date,d]));
+  CORE=DAYS.filter(d=>!d.extra);
+}
+const nextMonday=k=>{const d=dowOf(k);return d===0?k:addDays(k,7-d);};
 const pad=n=>String(n).padStart(2,"0");
 function todayKey(){const n=new Date();return n.getFullYear()+"-"+pad(n.getMonth()+1)+"-"+pad(n.getDate());}
 function fmt(key,opts){return new Date(key+"T12:00:00Z").toLocaleDateString("en-GB",Object.assign({timeZone:"UTC"},opts||{weekday:"short",day:"numeric",month:"short"}));}
@@ -501,12 +531,15 @@ const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: r
 
 /* ---------- State ---------- */
 const LS="a6400-tracker-v1";
-function blank(){return {done:{},checks:{},journal:{}};}
-function normalize(o){const b=blank();if(o&&typeof o==="object"){if(o.done&&typeof o.done==="object")b.done=Object.assign({},o.done);if(o.checks&&typeof o.checks==="object")b.checks=Object.assign({},o.checks);if(o.journal&&typeof o.journal==="object"){for(const k in o.journal){const j=o.journal[k]||{};b.journal[k]={w:String(j.w||""),f:String(j.f||""),n:String(j.n||"")};}}}return b;}
+function blank(){return {start:null,done:{},checks:{},journal:{}};}
+const OLD_W1=[0,2,3,4,5,6];
+function migrateKey(k){if(!/^\d{4}-\d{2}-\d{2}$/.test(k))return k;const c=Math.round((Date.parse(k+"T00:00:00Z")-Date.UTC(2026,11,1))/DAY);if(c<0||c>54)return null;if(c<6)return "1-"+OLD_W1[c];const r=c-6;return (2+Math.floor(r/7))+"-"+(r%7);}
+function migrateMap(m){const out={};for(const k in m){const n=migrateKey(k);if(n)out[n]=m[k];}return out;}
+function normalize(o){const b=blank();if(o&&typeof o==="object"){if(typeof o.start==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(o.start))b.start=o.start;if(o.done&&typeof o.done==="object")b.done=Object.assign({},o.done);if(o.checks&&typeof o.checks==="object")b.checks=Object.assign({},o.checks);if(o.journal&&typeof o.journal==="object"){for(const k in o.journal){const j=o.journal[k]||{};b.journal[k]={w:String(j.w||""),f:String(j.f||""),n:String(j.n||"")};}}}b.done=migrateMap(b.done);b.journal=migrateMap(b.journal);return b;}
 let S=blank();
 try{const raw=localStorage.getItem(LS);if(raw)S=normalize(JSON.parse(raw));}catch(e){}
 function saveLocal(){try{localStorage.setItem(LS,JSON.stringify(S));}catch(e){}}
-const sig=o=>JSON.stringify([o.done,o.checks,o.journal]);
+const sig=o=>JSON.stringify([o.start,o.done,o.checks,o.journal]);
 let sel=null;
 
 /* ---------- Sync ---------- */
@@ -526,7 +559,7 @@ async function flush(){
   if(!ref)return;
   if(writing){clearTimeout(timer);timer=setTimeout(flush,300);return;}
   writing=true;dirty=false;
-  const body=JSON.parse(JSON.stringify({done:S.done,checks:S.checks,journal:S.journal,updatedAt:new Date().toISOString()}));
+  const body=JSON.parse(JSON.stringify({start:S.start||null,done:S.done,checks:S.checks,journal:S.journal,updatedAt:new Date().toISOString()}));
   let retry=false;
   try{await ref.set(body);}catch(e){if(e&&(e.code==="unavailable"||!e.code)){retry=true;dirty=true;}else{setStatus("error");}}
   writing=false;
@@ -554,20 +587,22 @@ async function initSync(){
 }
 
 /* ---------- Derived ---------- */
-function focusKey(){const t=todayKey();if(sel&&BYKEY[sel])return sel;if(BYKEY[t])return t;if(t<DAYS[0].key)return DAYS[0].key;return DAYS[DAYS.length-1].key;}
-const doneCount=list=>list.filter(d=>S.done[d.key]).length;
+function focusKey(){const t=todayKey();if(sel&&BYKEY[sel])return sel;if(BYDATE[t])return BYDATE[t].key;if(t<DAYS[0].date)return DAYS[0].key;return DAYS[DAYS.length-1].key;}
+const doneCount=list=>list.filter(d=>!d.extra&&S.done[d.key]).length;
+const coreOf=list=>list.filter(d=>!d.extra);
 const weekDays=n=>DAYS.filter(d=>d.week===n);
-function streak(){const t=todayKey();let i=DAYS.findIndex(d=>d.key===t);if(i<0){if(t>DAYS[DAYS.length-1].key)i=DAYS.length-1;else return 0;}if(!S.done[DAYS[i].key])i--;let n=0;while(i>=0&&S.done[DAYS[i].key]){n++;i--;}return n;}
+function streak(){const t=todayKey();let i=DAYS.findIndex(d=>d.date===t);if(i<0){if(t>DAYS[DAYS.length-1].date)i=DAYS.length-1;else return 0;}
+  if(!S.done[DAYS[i].key])i--;let n=0;while(i>=0){const d=DAYS[i];if(S.done[d.key])n++;else if(!d.extra)break;i--;}return n;}
 function listDone(id){const l=LISTS.find(x=>x.id===id);return l.items.filter((_,i)=>S.checks[id+":"+i]).length;}
-function phasePct(p){const days=DAYS.filter(d=>p.weeks.includes(d.week));const l=LISTS.find(x=>x.id===p.id);const total=days.length+l.items.length;return total?Math.round(100*(doneCount(days)+listDone(p.id))/total):0;}
+function phasePct(p){const days=CORE.filter(d=>p.weeks.includes(d.week));const l=LISTS.find(x=>x.id===p.id);const total=days.length+l.items.length;return total?Math.round(100*(doneCount(days)+listDone(p.id))/total):0;}
 function currentPhase(){for(const p of PHASES){if(phasePct(p)<100)return p.id;}return "p5";}
 const checksTotal=LISTS.reduce((a,l)=>a+l.items.length,0);
 function stat(name){
   const [k,a]=name.split(":");
-  if(k==="total")return doneCount(DAYS)+"/"+DAYS.length;
+  if(k==="total")return doneCount(DAYS)+"/"+CORE.length;
   if(k==="streak")return String(streak());
-  if(k==="week"){const w=weekDays(+a);return doneCount(w)+"/"+w.length;}
-  if(k==="planpct")return Math.round(100*doneCount(DAYS)/DAYS.length)+"%";
+  if(k==="week"){const w=coreOf(weekDays(+a));return doneCount(w)+"/"+w.length;}
+  if(k==="planpct")return Math.round(100*doneCount(DAYS)/CORE.length)+"%";
   if(k==="checks")return Object.keys(S.checks).length+"/"+checksTotal;
   if(k==="list"){const l=LISTS.find(x=>x.id===a);return listDone(a)+"/"+l.items.length;}
   if(k==="phase")return phasePct(PHASES.find(p=>p.id===a))+"%";
@@ -575,8 +610,8 @@ function stat(name){
 }
 function bar(name){
   const [k,a]=name.split(":");
-  if(k==="plan")return 100*doneCount(DAYS)/DAYS.length;
-  if(k==="week"){const w=weekDays(+a);return 100*doneCount(w)/w.length;}
+  if(k==="plan")return 100*doneCount(DAYS)/CORE.length;
+  if(k==="week"){const w=coreOf(weekDays(+a));return 100*doneCount(w)/w.length;}
   if(k==="phase")return phasePct(PHASES.find(p=>p.id===a));
   if(k==="list"){const l=LISTS.find(x=>x.id===a);return 100*listDone(a)/l.items.length;}
   return 0;
@@ -624,28 +659,45 @@ function toggleDay(key){
   const on=!S.done[key];
   if(on)S.done[key]=new Date().toISOString();else delete S.done[key];
   queueWrite();refresh();
-  if(on){const d=BYKEY[key],left=DAYS.length-doneCount(DAYS),st=streak();
-    toast(`Day ${d.idx+1} done · ${d.title}`,`${st>1?st+"-day streak · ":""}${left} day${left===1?"":"s"} left in Phase 0–1`);}
+  if(on){const d=BYKEY[key],left=CORE.length-doneCount(DAYS),st=streak();
+    toast(`${d.extra?"Done":"Day "+(d.idx+1)+" done"} · ${d.title}`,`${st>1?st+"-day streak · ":""}${left} plan day${left===1?"":"s"} left in Phase 0–1`);}
 }
+function setStart(k){const changed=S.start&&S.start!==k;S.start=k;sel=null;queueWrite(0);if(location.hash!=="#today")location.hash="today";else{render();window.scrollTo(0,0);}
+  toast(changed?"Start date changed":"Your plan is set",`Day 1 is ${fmtLong(k)}`);}
 function toggleCheck(id){if(S.checks[id])delete S.checks[id];else S.checks[id]=true;queueWrite();refresh();}
 function setJournal(key,field,val){const j=S.journal[key]||{w:"",f:"",n:""};j[field]=val;if(!j.w&&!j.f&&!j.n)delete S.journal[key];else S.journal[key]=j;queueWrite(900);}
 function openDay(key){sel=key;if(location.hash!=="#today")location.hash="today";else{render();window.scrollTo(0,0);}}
 
 const videoLink=(v,sub)=>`<a class="video" href="${esc(v.u)}" target="_blank" rel="noopener noreferrer"><span class="vt">${ic("yt")}</span><span class="vb"><b>${esc(v.t)}</b><small>${esc(sub||"Free on YouTube")}</small></span>${ic("ext")}</a>`;
 /* ---------- Views ---------- */
+function startCard(compact){
+  const t=todayKey(),nm=nextMonday(t),cur=S.start;
+  return `<section class="card" aria-label="Start date">
+    <div class="card-header"><h3 class="card-title">${cur?"Plan start date":"When do you want to start?"}</h3>
+      <p class="card-desc">${cur?`Your plan started ${esc(fmtLong(cur))}. Changing it moves every date; your ticks and journal stay with their plan days.`:"Pick any day. Weeks 2–8 run Monday to Sunday so the long shoots land on weekends. If you start mid-week, week 1 stretches to the following Sunday with a few optional catch-up days."}</p></div>
+    <div class="field"><label for="start-date">Start date</label><input type="date" class="textarea" id="start-date" value="${esc(cur||t)}" style="min-height:40px;height:40px;field-sizing:fixed"></div>
+    <div class="card-footer" style="flex-wrap:wrap">
+      <button class="btn btn-primary" data-act="set-start">${cur?"Change start date":"Start on this date"}</button>
+      ${cur?"":`<button class="btn btn-outline" data-act="start-today">Start today</button>${nm!==t?`<button class="btn btn-outline" data-act="start-monday">Start Monday ${esc(fmt(nm,{day:"numeric",month:"short"}))}</button>`:""}`}
+    </div>
+  </section>`;
+}
 function vToday(){
   const t=todayKey(),k=focusKey(),d=BYKEY[k],w=WEEKS[d.week-1],done=!!S.done[k],j=S.journal[k]||{w:"",f:"",n:""};
-  const prev=DAYS[d.idx-1],next=DAYS[d.idx+1],isToday=k===t;
+  const prev=DAYS[d.idx-1],next=DAYS[d.idx+1],isToday=d.date===t;
+  const last=DAYS[DAYS.length-1].date;
   let status;
-  if(t<DAYS[0].key){const n=daysBetween(t,DAYS[0].key);status=`<span class="badge badge-outline">${ic("calendar")}Starts in ${n} day${n===1?"":"s"}</span>`;}
-  else if(t>DAYS[DAYS.length-1].key)status=`<span class="badge badge-outline">Phase 2 starts 25 Jan</span>`;
+  if(!S.start)status=`<span class="badge badge-outline">${ic("calendar")}Preview · choose your start date above</span>`;
+  else if(t<DAYS[0].date){const n=daysBetween(t,DAYS[0].date);status=`<span class="badge badge-outline">${ic("calendar")}Starts in ${n} day${n===1?"":"s"}</span>`;}
+  else if(t>last)status=`<span class="badge badge-outline">Phase 0–1 finished · Phase 2 from ${esc(fmt(addDays(last,1),{day:"numeric",month:"short"}))}</span>`;
   else status=isToday?`<span class="badge badge-outline"><span class="dot" style="background:var(--primary)"></span>Today · day ${d.idx+1} of ${DAYS.length}</span>`:`<button class="badge badge-outline" data-act="today">${ic("undo")}Back to today</button>`;
-  const wd=weekDays(d.week),cells=[];
-  for(let c=0;c<7;c++){const x=wd.find(y=>y.dow===c);if(!x){cells.push('<span class="day placeholder"></span>');continue;}
-    cells.push(`<button class="day ${S.done[x.key]?"is-done":""} ${x.key===k?"is-sel":""}" data-day="${x.key}" data-open="${x.key}" style="--tc:var(--t-${x.type})" aria-label="${esc(fmtLong(x.key))}: ${esc(x.title)}"><span class="dw">${fmt(x.key,{weekday:"short"})}</span><span class="dn num">${fmt(x.key,{day:"numeric"})}</span><span class="mk"></span></button>`);}
+  const monday=addDays(d.date,-d.dow),cells=[];
+  for(let c=0;c<7;c++){const x=BYDATE[addDays(monday,c)];if(!x){cells.push('<span class="day placeholder"></span>');continue;}
+    cells.push(`<button class="day ${S.done[x.key]?"is-done":""} ${x.key===k?"is-sel":""}" data-day="${x.key}" data-open="${x.key}" style="--tc:var(--t-${x.type})" aria-label="${esc(fmtLong(x.date))}: ${esc(x.title)}"><span class="dw">${fmt(x.date,{weekday:"short"})}</span><span class="dn num">${fmt(x.date,{day:"numeric"})}</span><span class="mk"></span></button>`);}
   return `
+  ${S.start?"":startCard()}
   <div class="page-head">
-    <div><div style="margin-bottom:8px">${status}</div><h1>${esc(fmtLong(k))}</h1><p class="sub">Week ${d.week} · ${esc(w.topic)} · ${w.phase===0?"Phase 0":"Phase 1"}</p></div>
+    <div><div style="margin-bottom:8px">${status}</div><h1>${esc(fmtLong(d.date))}</h1><p class="sub">Day ${d.idx+1} · Week ${d.week} · ${esc(w.topic)} · ${w.phase===0?"Phase 0":"Phase 1"}</p></div>
     <div class="head-actions">
       <button class="btn btn-outline btn-icon" data-open="${prev?prev.key:""}" ${prev?"":"disabled"} aria-label="Previous day">${ic("left")}</button>
       <button class="btn btn-outline btn-icon" data-open="${next?next.key:""}" ${next?"":"disabled"} aria-label="Next day">${ic("right")}</button>
@@ -653,7 +705,7 @@ function vToday(){
   </div>
   <section class="card hero" style="--tc:var(--t-${d.type})" aria-label="Task">
     <div class="card-header" style="gap:12px">
-      <div class="meta"><span class="badge badge-type">${TYPE_LABEL[d.type]}</span><span>${ic("clock")}${esc(d.hours)}${d.time?" · "+esc(d.time):""}</span></div>
+      <div class="meta"><span class="badge badge-type">${d.extra?"Optional":TYPE_LABEL[d.type]}</span><span>${ic("clock")}${esc(d.hours)}${d.time?" · "+esc(d.time):""}</span></div>
       <h2 class="hero-title">${esc(d.title)}</h2>
       <p class="hero-desc">${esc(d.detail)}</p>
     </div>
@@ -676,30 +728,34 @@ function vToday(){
     <div class="field"><label for="j-f">What failed</label><textarea class="textarea" id="j-f" data-j="f" data-key="${k}" placeholder="Missed focus on the cyclists…">${esc(j.f)}</textarea></div>
     <div class="field"><label for="j-n">What I'll try next</label><textarea class="textarea" id="j-n" data-j="n" data-key="${k}" placeholder="Use Tracking with AF-C…">${esc(j.n)}</textarea></div>
   </section>
-  ${next?`<button class="card next" data-open="${next.key}" style="flex-direction:row"><span class="badge badge-type" style="--tc:var(--t-${next.type})">${TYPE_LABEL[next.type]}</span><span class="grow"><span class="t" style="display:block">Up next: ${esc(next.title)}</span><span class="s">${esc(fmtLong(next.key))}${next.place?" · "+esc(next.place.split(" · ")[0]):""}</span></span>${ic("right")}</button>`:""}`;
+  ${next?`<button class="card next" data-open="${next.key}" style="flex-direction:row"><span class="badge badge-type" style="--tc:var(--t-${next.type})">${next.extra?"Optional":TYPE_LABEL[next.type]}</span><span class="grow"><span class="t" style="display:block">Up next: ${esc(next.title)}</span><span class="s">${esc(fmtLong(next.date))}${next.place?" · "+esc(next.place.split(" · ")[0]):""}</span></span>${ic("right")}</button>`:""}`;
 }
 function vPlan(){
-  const t=todayKey();
-  return `<div class="page-head"><div><h1>Daily plan</h1><p class="sub">1 December – 24 January · Phase 0 and Phase 1</p></div><span class="badge badge-outline num" data-stat="total">${stat("total")}</span></div>
+  const t=todayKey(),first=DAYS[0].date,last=DAYS[DAYS.length-1].date;
+  return `<div class="page-head"><div><h1>Daily plan</h1><p class="sub">${esc(fmt(first,{day:"numeric",month:"short",year:"numeric"}))} – ${esc(fmt(last,{day:"numeric",month:"short",year:"numeric"}))} · Phase 0 and Phase 1</p></div><span class="badge badge-outline num" data-stat="total">${stat("total")}</span></div>
+  ${S.start?"":`<div class="card" style="padding:14px 16px;gap:8px;flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:wrap"><span class="card-desc">These dates assume you start today.</span><button class="btn btn-outline" data-act="today">Choose a start date</button></div>`}
   <div class="card" style="padding:16px 20px;gap:10px"><div class="label" style="display:flex;justify-content:space-between;font-size:13px"><span class="muted">Overall</span><span class="num" data-stat="planpct">${stat("planpct")}</span></div>${progress("plan","Daily plan progress")}</div>`+
-  WEEKS.map(w=>{const ds=weekDays(w.n),first=ds[0].key,last=ds[ds.length-1].key;
+  WEEKS.map(w=>{const ds=weekDays(w.n),a=ds[0].date,b=ds[ds.length-1].date;
    return `<section class="card week-card" aria-label="Week ${w.n}">
     <div class="card-header"><div class="wk-top"><h3 class="card-title">Week ${w.n} · ${esc(w.topic)}</h3><span class="badge badge-outline num" data-stat="week:${w.n}">${stat("week:"+w.n)}</span></div>
-      <p class="card-desc">${esc(fmt(first,{day:"numeric",month:"short"}))} – ${esc(fmt(last,{day:"numeric",month:"short"}))} · ${esc(w.goal)}</p>${progress("week:"+w.n,"Week "+w.n+" progress")}</div>
-    <div class="rows">${ds.map(d=>`<div class="row ${S.done[d.key]?"is-done":""} ${d.key===t?"is-today":""}" data-day="${d.key}">
-      <input type="checkbox" class="cb cb-lg" id="t-${d.key}" data-toggle="${d.key}" ${S.done[d.key]?"checked":""} aria-label="Mark ${esc(fmt(d.key))} done">
+      <p class="card-desc">${esc(fmt(a,{day:"numeric",month:"short"}))} – ${esc(fmt(b,{day:"numeric",month:"short"}))} · ${esc(w.goal)}</p>${progress("week:"+w.n,"Week "+w.n+" progress")}</div>
+    <div class="rows">${ds.map(d=>`<div class="row ${S.done[d.key]?"is-done":""} ${d.date===t?"is-today":""}" data-day="${d.key}">
+      <input type="checkbox" class="cb cb-lg" id="t-${d.key}" data-toggle="${d.key}" ${S.done[d.key]?"checked":""} aria-label="Mark ${esc(fmt(d.date))} done">
       <button class="row-main" data-open="${d.key}"><span class="row-title">${esc(d.title)}</span><span class="row-sub">${DAY_VIDEOS[d.key]?`<span class="vid-dot">${ic("play")}Video</span> · `:""}${d.place?esc(d.place):esc(d.detail)}</span></button>
-      <span class="row-date"><span class="num">${esc(fmt(d.key))}</span><span class="badge badge-type" style="--tc:var(--t-${d.type})">${TYPE_LABEL[d.type]}</span></span>
+      <span class="row-date"><span class="num">${esc(fmt(d.date))}</span><span class="badge badge-type" style="--tc:var(--t-${d.type})">${d.extra?"Optional":TYPE_LABEL[d.type]}</span></span>
     </div>`).join("")}</div></section>`;}).join("")+
-  `<p class="muted" style="font-size:13px;text-align:center">Phase 2 (light and editing) starts Monday 25 January. Its daily plan gets added when you reach it.</p>`;
+  `<p class="muted" style="font-size:13px;text-align:center">Phase 2 (light and editing) starts ${esc(fmtLong(addDays(last,1)))}. Its daily plan gets added when you reach it.</p>`;
 }
 function vProgress(){
   const t=todayKey(),cur=currentPhase();
-  let rows="";
-  WEEKS.forEach(w=>{rows+=`<span class="wl">W${w.n}</span>`;const ds=weekDays(w.n);
-    for(let c=0;c<7;c++){const d=ds.find(x=>x.dow===c);if(!d){rows+='<span class="cell none"></span>';continue;}
-      const cls=["cell"];if(S.done[d.key])cls.push("is-done");if(d.key<t)cls.push("missed");if(d.type==="rest"||d.type==="bonus")cls.push("rest");if(d.key===t)cls.push("today");
-      rows+=`<button class="${cls.join(" ")}" data-day="${d.key}" data-open="${d.key}" title="${esc(fmt(d.key))} · ${esc(d.title)}" aria-label="${esc(fmt(d.key))}: ${esc(d.title)}"></button>`;}});
+  let rows="";const firstMon=addDays(DAYS[0].date,-DAYS[0].dow),last=DAYS[DAYS.length-1].date;
+  for(let m=firstMon;m<=last;m=addDays(m,7)){
+    const wk=(BYDATE[m]||BYDATE[addDays(m,6)]||DAYS[0]).week;
+    rows+=`<span class="wl num">${esc(fmt(m,{day:"numeric",month:"short"}))}</span>`;
+    for(let c=0;c<7;c++){const d=BYDATE[addDays(m,c)];if(!d){rows+='<span class="cell none"></span>';continue;}
+      const cls=["cell"];if(S.done[d.key])cls.push("is-done");if(d.date<t&&!d.extra)cls.push("missed");if(d.type==="rest"||d.type==="bonus"||d.extra)cls.push("rest");if(d.date===t)cls.push("today");
+      rows+=`<button class="${cls.join(" ")}" data-day="${d.key}" data-open="${d.key}" title="${esc(fmt(d.date))} · Week ${d.week} · ${esc(d.title)}" aria-label="${esc(fmt(d.date))}: ${esc(d.title)}"></button>`;}
+  }
   return `
   <div class="page-head"><div><h1>Progress</h1><p class="sub">From first settings to a pro portfolio in about 18 months</p></div></div>
   <div class="stats">
@@ -708,9 +764,9 @@ function vProgress(){
     <div class="card stat"><div class="label">Checklists ${ic("checks")}</div><div class="value num" data-stat="checks">${stat("checks")}</div><div class="muted" style="font-size:12px">items ticked</div></div>
   </div>
   <section class="card" aria-label="Day map">
-    <div class="card-header"><h3 class="card-title">Day map</h3><p class="card-desc">Every day of Phase 0 and Phase 1. Tap one to open it.</p></div>
-    <div class="heat"><span></span>${["M","T","W","T","F","S","S"].map(x=>`<span class="h">${x}</span>`).join("")}${rows}</div>
-    <div class="legend"><span><i style="background:var(--primary);border-color:var(--primary)"></i>Done</span><span><i style="background:color-mix(in oklab,var(--foreground) 12%,var(--muted))"></i>Missed</span><span><i style="background:transparent;border-style:dashed"></i>Rest or bonus</span><span><i style="box-shadow:0 0 0 1.5px var(--foreground)"></i>Today</span></div>
+    <div class="card-header"><h3 class="card-title">Day map</h3><p class="card-desc">Every day of Phase 0 and Phase 1, one row per calendar week. Tap a day to open it.</p></div>
+    <div class="heat" style="grid-template-columns:48px repeat(7,1fr)"><span></span>${["M","T","W","T","F","S","S"].map(x=>`<span class="h">${x}</span>`).join("")}${rows}</div>
+    <div class="legend"><span><i style="background:var(--primary);border-color:var(--primary)"></i>Done</span><span><i style="background:color-mix(in oklab,var(--foreground) 12%,var(--muted))"></i>Missed</span><span><i style="background:transparent;border-style:dashed"></i>Rest or optional</span><span><i style="box-shadow:0 0 0 1.5px var(--foreground)"></i>Today</span></div>
   </section>
   <section class="card" aria-label="Roadmap">
     <div class="card-header"><h3 class="card-title">Roadmap</h3><p class="card-desc">Phases 0–1 count days and checklist items; later phases count their checklist until their daily plans are added.</p></div>
@@ -720,7 +776,7 @@ function vProgress(){
   </section>`;
 }
 function vLists(){
-  return `<div class="page-head"><div><h1>Checklists</h1><p class="sub">Pass each phase's checklist before moving on. Free video lessons sit under each phase.</p></div><span class="badge badge-outline num" data-stat="checks">${stat("checks")}</span></div>`+
+  return (S.start?startCard():"")+`<div class="page-head"><div><h1>Checklists</h1><p class="sub">Pass each phase's checklist before moving on. Free video lessons sit under each phase.</p></div><span class="badge badge-outline num" data-stat="checks">${stat("checks")}</span></div>`+
   LISTS.map(l=>`<section class="card" aria-label="${esc(l.title)}">
     <div class="card-header"><div class="wk-top" style="display:flex;justify-content:space-between;align-items:center;gap:12px"><h3 class="card-title">${esc(l.title)}</h3><span class="badge badge-outline num" data-stat="list:${l.id}">${stat("list:"+l.id)}</span></div>${progress("list:"+l.id,l.title+" progress")}</div>
     <div class="checks">${l.items.map((it,i)=>{const id=l.id+":"+i,on=!!S.checks[id];return `<label class="check ${on?"is-done":""}" for="c-${l.id}-${i}"><input type="checkbox" class="cb" id="c-${l.id}-${i}" data-check="${id}" ${on?"checked":""}><span>${esc(it)}</span></label>`;}).join("")}</div>
@@ -735,7 +791,7 @@ function backupCard(){
     <div class="card-footer" style="flex-wrap:wrap"><button class="btn btn-primary" data-act="restore" id="restore-btn">Restore</button><span class="saved-hint" id="backup-msg" role="status"></span></div>
   </section>`;
 }
-const encodeBackup=()=>btoa(unescape(encodeURIComponent(JSON.stringify({v:1,done:S.done,checks:S.checks,journal:S.journal}))));
+const encodeBackup=()=>btoa(unescape(encodeURIComponent(JSON.stringify({v:2,start:S.start||null,done:S.done,checks:S.checks,journal:S.journal}))));
 function decodeBackup(code){const o=JSON.parse(decodeURIComponent(escape(atob(code.trim()))));if(!o||typeof o!=="object"||!o.done)throw new Error("bad");return normalize(o);}
 let restoreArmed=false;
 async function copyBackup(){
@@ -750,18 +806,18 @@ function restoreBackup(){
   restoreArmed=false;S=next;queueWrite(0);render();toast("Progress restored",`${Object.keys(S.done).length} days done`);
 }
 function vJournal(){
-  const keys=Object.keys(S.journal).filter(k=>BYKEY[k]).sort().reverse();
+  const keys=Object.keys(S.journal).filter(k=>BYKEY[k]).sort((a,b)=>BYKEY[b].idx-BYKEY[a].idx);
   const head=`<div class="page-head"><div><h1>Journal</h1><p class="sub">What worked, what failed, what's next</p></div>${keys.length?`<span class="badge badge-outline num">${keys.length} entr${keys.length===1?"y":"ies"}</span>`:""}</div>`;
   if(!keys.length)return head+`<div class="card empty"><span class="ic">${ic("book")}</span><h3 class="card-title">No entries yet</h3><p class="card-desc" style="max-width:40ch">After each session, write three lines on the Today tab. Re-read them at the end of every phase.</p><button class="btn btn-outline" data-act="today" style="margin-top:6px">Go to today</button></div>`;
   return head+keys.map(k=>{const j=S.journal[k],d=BYKEY[k];return `<article class="card entry">
-    <div class="card-header split"><div class="card-header"><p class="card-desc">${esc(fmt(k,{weekday:"short",day:"numeric",month:"short",year:"numeric"}))} · Week ${d.week}</p><h3 class="card-title">${esc(d.title)}</h3></div><button class="btn btn-ghost" data-open="${k}" style="height:32px;padding:0 10px">Open${ic("right")}</button></div>
+    <div class="card-header split"><div class="card-header"><p class="card-desc">${esc(fmt(d.date,{weekday:"short",day:"numeric",month:"short",year:"numeric"}))} · Day ${d.idx+1} · Week ${d.week}</p><h3 class="card-title">${esc(d.title)}</h3></div><button class="btn btn-ghost" data-open="${k}" style="height:32px;padding:0 10px">Open${ic("right")}</button></div>
     <dl>${j.w?`<dt>Worked</dt><dd>${esc(j.w)}</dd>`:""}${j.f?`<dt>Failed</dt><dd>${esc(j.f)}</dd>`:""}${j.n?`<dt>Next</dt><dd>${esc(j.n)}</dd>`:""}</dl></article>`;}).join("");
 }
 const VIEWS={today:vToday,plan:vPlan,progress:vProgress,lists:vLists,journal:vJournal};
 function tab(){const h=(location.hash||"").slice(1);return VIEWS[h]?h:"today";}
 function render(){
   const a=document.activeElement,keep=a&&a.dataset&&a.dataset.j?{id:a.id,s:a.selectionStart,e:a.selectionEnd}:null;
-  const tb=tab();document.getElementById("view").innerHTML=VIEWS[tb]();
+  schedule();const tb=tab();document.getElementById("view").innerHTML=VIEWS[tb]();
   document.querySelectorAll("[data-tab]").forEach(x=>{if(x.dataset.tab===tb)x.setAttribute("aria-current","page");else x.removeAttribute("aria-current");});
   if(keep){const el=document.getElementById(keep.id);if(el){el.focus();try{el.setSelectionRange(keep.s,keep.e);}catch(e){}}}
 }
@@ -769,6 +825,9 @@ const view=document.getElementById("view");
 view.addEventListener("click",e=>{
   const tg=e.target.closest("button[data-toggle]");if(tg){toggleDay(tg.dataset.toggle);return;}
   const op=e.target.closest("[data-open]");if(op&&op.dataset.open){openDay(op.dataset.open);return;}
+  if(e.target.closest("[data-act='set-start']")){const v=(document.getElementById("start-date")||{}).value;if(/^\d{4}-\d{2}-\d{2}$/.test(v||""))setStart(v);return;}
+  if(e.target.closest("[data-act='start-today']")){setStart(todayKey());return;}
+  if(e.target.closest("[data-act='start-monday']")){setStart(nextMonday(todayKey()));return;}
   if(e.target.closest("[data-act='copy-backup']")){copyBackup();return;}
   if(e.target.closest("[data-act='restore']")){restoreBackup();return;}
   const ac=e.target.closest("[data-act='today']");if(ac){sel=null;if(location.hash!=="#today")location.hash="today";else render();}
